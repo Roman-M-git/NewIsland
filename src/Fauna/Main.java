@@ -37,8 +37,8 @@ public class Main {
         addAnimals(island, 50, Duck.class, random, "🦆");
         addAnimals(island, 50, Caterpillar.class, random, "🐛");
 
-        // 🕒 Симуляция 10 шагов
-        for (int i = 1; i <= 1000; i++) {
+        // 🕒 Симуляция количества шагов
+        for (int i = 1; i <= 100; i++) {
             System.out.println("\n===== Step " + i + " =====");
 
             // Сбрасываем счётчик травы перед шагом
